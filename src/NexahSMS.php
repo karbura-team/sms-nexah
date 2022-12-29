@@ -1,5 +1,8 @@
 <?php
 
+	/**
+	 * This class use to send SMS via the Nexah API
+	 */
 	class NexahSMS
 	{
 		protected $user;
@@ -11,6 +14,8 @@
 		protected $success_res     = false;
 
 		/**
+		 * This methods is used to send and sms to one or more numbers
+		 *
 		 * @param $user
 		 * @param $password
 		 * @param $senderid
@@ -66,22 +71,6 @@
 		}
 
 		/**
-		 * @return string
-		 */
-		public function getSuccessMessage()
-		{
-			return $this->success_message;
-		}
-
-		/**
-		 * @param string $success_message
-		 */
-		public function setSuccessMessage($success_message)
-		{
-			$this->success_message = $success_message;
-		}
-
-		/**
 		 * @return bool
 		 */
 		public function isSuccessRes()
@@ -95,6 +84,22 @@
 		public function setSuccessRes($success_res)
 		{
 			$this->success_res = $success_res;
+		}
+
+		/**
+		 * @return string
+		 */
+		public function getSuccessMessage()
+		{
+			return $this->success_message;
+		}
+
+		/**
+		 * @param string $success_message
+		 */
+		public function setSuccessMessage($success_message)
+		{
+			$this->success_message = $success_message;
 		}
 
 		/**

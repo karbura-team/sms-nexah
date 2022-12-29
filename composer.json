@@ -1,0 +1,28 @@
+{
+  "name": "iori/nexah-sms",
+  "description": "This package allow you to send SMS to one or more number via the Nexah API",
+  "keywords": [
+    "Nexah",
+    "nexah",
+    "sms",
+    "SMS",
+    "php sms"
+  ],
+  "type": "php-module",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "ETOUNDI OYONO Georges Lévy",
+      "email": "etoundioyono.georgeslevy@gmail.com"
+    },
+    {
+      "name": "Karbura",
+      "email": "support@karbura.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}

@@ -43,24 +43,6 @@ $sms->send_sms($user, $password, $senderid, $sms, $modiles);
 
 //  An example of this is the following
 $sms->send_sms("myloginemail@email.com", "myloginpassword", "My Name", "My message here", "xxxxxxxxx, xxxxxxxxx, xxxxxxxxx");
-
-// keep in mind that this method returns a boolean, so you must assign the method to a variable and use it in an if condition to check wether the SMS is sent or not.
-
-// send a message to a single receiver
-$response = MessageBird::send(["+237653214587"], "My First SMS");
-
-//Or
-
-// set a list of receivers / recipients
-$receivers = [
-    "receiver1",
-    "receiver2",
-    "receiver3",
-    ...
-]
-
-// and then make a single call to send
-$response = MessageBird::send(["+237653214587"], "Send Many SMS");
 ```
 
 Thank you for using this extension and if there is any problem, feel free to report it.

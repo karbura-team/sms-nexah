@@ -16,12 +16,12 @@ To get a Nexah account and start using their API, visit [nexah/contac-us](https:
 
 Installation is recommended to be done via [composer][] by running:
 
-	composer require 
+	composer require composer require karbura/nexah-sms
 
 Alternatively you can add the following to the `require` section in your `composer.json` manually:
 
 ```json
-""
+"karbura/nexah-sms"
 ```
 
 Run `composer update` afterwards.

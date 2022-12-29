@@ -1,5 +1,5 @@
 {
-  "name": "iori/nexah-sms",
+  "name": "karbura/nexah-sms",
   "description": "This package allow you to send SMS to one or more number via the Nexah API",
   "keywords": [
     "Nexah",
